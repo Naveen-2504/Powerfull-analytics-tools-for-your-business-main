@@ -1,16 +1,30 @@
+*{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+body{
+	margin: 0;
+}
 .main23{
-	background-color: skyblue;
+	background-color: #D1E8FF;
+	height: 700px;
 }
 a{
 	text-decoration: none;
+	color: #0E0E0E;
 }
+
 .sb{
-	position: relative;
-	border: 1px solid skyblue;
-	height: 85px;
-	background-color: skyblue;
 	display: flex;
-}	
+	width: 1782px;
+}
+.head{
+	display: flex;
+	margin: 0px auto;
+	width: 1411px;
+}
+.head img{
+	height: 8vh;
+}
 li{
 	display: inline;
 }
@@ -19,55 +33,43 @@ li{
 }
 li a{
 	display: block;
-	padding: 28px;
+	padding: 39px 29px;
 }
-.logo{
-	height: 40px;
-	padding: 2px;	
-}
-
 #l{
-	position: absolute;
-	left: 10%;
+	flex:1;
+	font-size: 36px;
+	font-family: 'Lexend Giga', sans-serif;
 }
 #c{
-	position: absolute;
-	right: 38%;
+	flex: 3;
 }
 #r{
-	position: absolute;
-	right: 10%;
+	flex: 1;
 }
 .startbox{
   background-color: white; 
   border: none;
   color: black;
-  padding: 3px 10px;
+  padding: 12px 13px;
   text-align: center;
   font-size: 16px;
-  margin: 25px 9px;
+  margin: 27px auto;
 }
+
 .pow{
 	display: flex;
-	flex-flow: column;
 	margin: 10px auto;
 	flex-wrap: wrap;
 	width: 43%;
 	font-size: 60px;
 	font-weight: 700;
-}
-.pow{
-	flex: 1;
 	text-align: center;
-}
-.up{
-	position: relative;
-	width: 100%;
 }
 .smallt1{
 	font-size: 18px;
 	display: flex;
 	justify-content: space-around;
+	font-weight: 412;
 }
 .smallt2{
 	font-size: 16px;
@@ -80,40 +82,30 @@ li a{
   margin: 25px auto;
 }
 .upstart{	
-	background-color: white;	
+  background-color: #5b45e0;	
   border: none;
-  color: blue;
-  padding: 10px 20px;
+  color: white;
+  padding: 24px 42px;
   text-align: center;
   font-size: 16px;
-  border-radius: 6px 6px;
+  border-radius: 8px 8px;
   margin: 12px;
-}
-.upstart:hover{
-	background-color: blue;
-	color: white;
 }
 .upview{
   background-color: white; 
   border: none;
-  color: blue;
-  padding: 10px 20px;
+  color:#5b45e0;
+  padding: 24px 42px;
   text-align: center;
   font-size: 16px;
-  border-radius: 6px 6px;
+  border-radius: 8px 8px;
   margin: 12px;
-}
-.upview:hover{
-	background-color: blue;
-	color: white;
 }
 .white{
 	border: 2px solid white;
 	position: relative;
-	width: 100%;
-	height: 1000px;
 	background-color: white;
-	border-radius: 20px 0px;
+	border-radius: 79px 79px;
 }
 .hr1{
 	border:1px solid black;
@@ -122,60 +114,71 @@ li a{
 	opacity: 0.2;
 	margin: 8px;
 }
+.whmain{
+	padding: 125px 0px;
+}
 .topfe{
 	display: flex;
 	flex-wrap: wrap;
-	width: 70%;
-	margin: 58px auto;
+	width: 52%;
+	margin: 0px auto;
 }
-
+.M{
+	margin: 12px auto;
+	width:1127px;
+}
 .main1{
 	display: flex;
-	justify-content: space-around;
 }
 .our{
 	margin: 0px auto;
 	display: flex;
-	width: 35%;
+	flex: 1;
+	justify-content: center;
 	font-size:46px;
 }
 .r2{
 	font-size: 18px;
-	width: 57%;
+	width: 100%;
+	font-weight: 500;
+}
+.we{
+	width: 759px;margin: 45px;
+	display: flex;flex: 1;
+	justify-content: center;
 }
 .up1 img{
-	height: 18vh;
+	height: 12vh;
+	margin: 26px;
 }
 .up2 img{
-	height: 18vh;
+	height: 12vh;
+	margin: 26px;
+}
+.fmain a{
+	color:#5b45e0;
 }
 .up1{
 	display: flex;
-	margin: 60px auto;	
+	margin: 2px auto;	
+	width: 1525px;
 }
 .up2{
 	display: flex;
-	margin: 60px auto;
+	margin: 44px auto;
+	width: 1500px;
 }
 .itup1{
 	display: flex;
-    flex: 1;
-    justify-content: center;
 }
 .itup2{
 	display: flex;
-    flex: 1;
-    justify-content: center;
 }
 .itup3{
 	display: flex;
-    flex: 1;
-    justify-content: center;
 }
 .itup4{
 	display: flex;
-    flex: 1;
-    justify-content: center;
 }
 .to{
 	font-size:30px; 
@@ -193,12 +196,15 @@ li a{
 }
 .more{
 	display: flex;
+	margin: 12px auto;
+	width: 1382px;
 }
 .hr3{
 	border:1px solid black;
 	background-color: black; 
-	width: 100%;
+	width: 74%;
 	opacity: 0.1;
+	margin: 12px auto
 }
 .zl{
 	border:1px solid black;
@@ -209,36 +215,33 @@ li a{
 .mow{
 	display: flex;
 	flex-direction: column;
-	margin: 48px 188px;
+	margin: 0px auto;
+	width: 1370px;
 }
 .main2 img{
-	height: 18vh;
+	height: 6vh;
 }
 .morew{
-	font-size: 46px;
-	width: 627px;
+	font-size: 57px;
+	width: 1373px;
+	margin: -49px auto;
 }
 .main2{
 	align-items: center;
-	justify-content: space-around;
+	line-height: 2;
+	padding-top: 77px;
 }
 .es{
 	display: flex;
-	justify-content: space-around;
+	flex:1;
 }
 .cp{
 	display: flex;
-	justify-content: space-around;
-}
-.te{
 	flex: 1;
+	line-height: 2;
+	padding-top: 62px;
 }
-.ta{
-	flex: 1;
-}
-.tc{
-	flex: 1;
-}
+
 .tb{
 	flex: 1;
 }
@@ -250,31 +253,29 @@ li a{
 }
 .ew{
 	flex: 1;
-	flex-basis: 219px;
 }
 .seti{
 	flex: 1;
 }
-.poti{
+.poit{
 	flex: 1;
-	flex-basis: auto;
 }
 .cloud{
 	flex: 1;
-	flex-direction: auto;	
 }
 .po{
 	flex: 1;
 }
-.cloud{
-	flex-basis: 100px;
+.sa{
+	flex: 1;
 }
-.cloud,.po.sa{
-	flex-basis: 200px;
+.et{
+	padding: 60px 12px;
 }
 .downt{
 	display: flex;
 	justify-content: center;
+	margin: 12px auto;
 }
 
 .downimg img{
@@ -282,9 +283,8 @@ li a{
 }
 .downimg{
 	display: flex;
-	flex:1;
-	flex-basis: 12px; 	 	
-	justify-content: space-around;
+	flex:1; 	 	
+	justify-content: space-between;
 	opacity: 0.3;
 }
 .fa{
@@ -306,6 +306,7 @@ li a{
 .lp{
 	display: flex;
 	justify-content: flex-end;
+	padding: 73px 12px;
 }
 .lastimg img{
 	width: 108px;
@@ -336,1631 +337,6 @@ li a{
 	background:#007bb5;
 	color: white; 	
 }
-/*.es{
-	display: flex;
-	width: 12%;
-	position: absolute;
-	left: 12%;
-	top: 128%;
+.q{
+	font-family: 'Merriweather Sans', sans-serif;
 }
-.etext{
-	position: absolute;
-	top: 324%;
-}
-.setext{
-	width: 150%;
-	margin: 197px 37px;
-}
-.seti{
-	position: absolute;
-	left: 260%;
-}
-.potext{
-	width: 85%;
-	position: absolute;
-	top: 320%;
-	left: 546%;
-}
-.poit{
-	margin: 28px 1240px;
-}
-.cp{
-	display: flex;
-	position: absolute;
-	left: 10%;
-}
-.ctext{
-	width: 46%;
-	position: absolute;
-	top: 40%;
-}
-.stext{
-	position: absolute;
-	top: 200%;
-}
-.po{
-	position: absolute;
-	left: 40%;
-}
-.ptext{
-	margin: 201px 578px;
-}
-.downt{
-	position: absolute;
-	top: 155%;
-	left: 36%;
-}
-.slackimg{
-	position: absolute;
-	width: 14%;
-	height: 12%;
-	top: 158%;
-	left: 12%;
-}
-.hubimg{
-    position: absolute;
-	width: 10%;
-	height: 10%;
-	top: 159%;
-	left: 28%;
-}
-.sqimg{
-	position: absolute;
-	width: 10%;
-	height: 12%;
-	top: 158%;
-	left: 40%;
-}
-.serimg{
-	position: absolute;
-	width: 12%;
-	height: 12%;
-	top: 158%;
-	left: 50%;
-}
-.cogimg{
-	position: absolute;
-	width: 16%;
-	height: 12%;
-	top: 159%;
-	left: 64%;
-}
-.grubimg{
-	position: absolute;
-	width: 18%;
-	height: 12%;
-	top: 159%;
-	left: 82%;
-}
-.downimg{
-	opacity: 0.5;
-}
-.ovalimg{
-	position: absolute;
-	height: 5%;
-	top: 180%;
-	left: 12%;
-}
-.fa{
-	padding: 8px;
-	border-radius: 80%;
-}
-.fa-facebook{
-	background:#3B5998;
-	color: white; 
-}
-.fa-twitter{
-	background:#55ACEE;
-	color: white; 	
-}
-.fa-linkedin{
-	background:#007bb5;
-	color: white; 	
-}
-.icon{
-	position: absolute;
-	top: 185%;
-	left: 12%;
-}
-.prod{
-	position: absolute;
-	top: 180%;
-	left: 38%;
-}
-.serv{
-	position: absolute;
-	top: 180%;
-	left: 54%;	
-}
-.comp{
-	position: absolute;
-	top: 180%;
-	left: 66%;	
-}
-.doc{
-	position: absolute;
-	top: 180%;
-	left: 80%;	
-}
-.at2{
-	position: absolute;
-	top: 198%;
-	left: 13%;
-	opacity: 0.5;
-}
-/*@media only screen and (max-width: 1000px){
-	#r{
-		position: absolute;
-		right: 4%;
-	}
-	.bigt1 {
-		font-size: 40px;
-		position: absolute;
-		left: 22%;
-	}
-
-	.bigt2 {
-		font-size: 40px;
-	}
-
-	.smallt2 {
-		font-size: 12px;
-		position: absolute;
-		left: 36%;
-	}
-
-	.smallt1 {
-		font-size: 14px;
-		position: absolute;
-		left: 22%;
-	}
-
-	#c {
-		position: absolute;
-		right: 270px;
-	}
-	.upstart{
-		font-size: 12px;
-		padding: 8px 10px;
-		margin: 0px 20px;
-	}
-	.upview{
-		font-size: 12px;
-		padding: 8px 10px;
-	
-	}
-	.upbutton{
-		position: absolute;
-		top: 55%;
-		left: 34%;
-
-	}
-	.sb{
-		position: absolute;
-		height: 750%;
-		width: 106%;
-		right: 1%;
-	}
-	.hr3{
-		border:1px solid black;
-		background-color: black;
-		width: 6%;
-		opacity: 0.2;
-		position: absolute;
-		top: 91%;
-		left: 14%; 
-	}
-	.hr2{
-		border:1px solid black;
-		background-color: black;
-		margin: 880px 120px;
-		opacity: 0.2;
-	}
-	.zl{
-		border:1px solid black;
-		background-color: black;
-		width: 84%;
-		opacity: 0.2;
-		position: absolute;
-		top: 248%;
-		left: 11%;
-	}
-	.hr1{
-		border:1px solid black;
-		background-color: black;
-		width: 5%;
-		opacity: 0.2;
-		position: absolute;
-		top: 4%;
-		left: 14%;
-	}
-	
-	.fe{
-		position: absolute;
-		top: 3%;
-	}
-	.our{
-		display: none;
-
-	}
-	.for{
-		display: none;
-	}
-	.our1{
-		font-size: 30px;
-		position: absolute;
-		top: 8%;
-		left: 18%;
-	}
-	.fete{
-		font-size: 20px;
-		font-weight: 700;
-	}	
-	.r1{
-		padding: 12px 5px;
-		position: absolute;
-		top: 14%;
-		left: 24%; 
-	}
-	.r2,.r3,.r4{
-		display: none;
-	}
-	#upimg{
-		width: 14%;
-		height: 14%;
-	}
-	.circle{		
-		position: absolute;
-        top: 22%; 
-		left: 70%;
-	}
-	.ctext{
-		position: absolute;
-        top: 24%; 
-	}
-	.sh{
-		position: absolute;
-        top: 40%;
-        left: 28%; 
-	}
-	.stext{
-		position: absolute;
-        top: 40%; 
-	}
-	.graph{
-		position: absolute;
-        top: 58%; 
-		left: 70%;
-	}
-	.gtext{
-		position: absolute;
-        top: 56%; 
-	}
-	.ohand{
-		position: absolute;
-        top: 74%;
-        left: 28%; 
-	}
-	.otext{
-		position: absolute;
-        top: 72%; 
-	}
-
-	.easy{
-		position: absolute;
-        top: 114%; 
-		left: 64%;
-	}
-	.etext{
-		font-size: 
-		position: absolute;
-        top: 113%;
-        left: 20%;
-	}
-	.se{
-		position: absolute;
-        top: 134%;
-        left: 20%; 
-	}
-	.setext{
-		position: absolute;
-        top: 132%;
-        left: 58%; 
-	}
-	.power{
-		position: absolute;
-        top: 154%; 
-		left: 62%;
-	}
-	.potext{
-		position: absolute;
-        top: 154%;
-        left: 20%; 
-	}
-	.cloud{
-		position: absolute;
-        top: 172%;
-        left: 22%; 
-	}
-	.cltext{
-		position: absolute;
-        top: 170%;
-        left: 58%; 
-	}
-	.pro{
-		position: absolute;
-        top: 192%; 
-		left: 62%;
-	}
-	.ptext{
-		position: absolute;
-        top: 192%;
-        left: 22%; 
-	}
-	.sat{
-		position: absolute;
-        top: 210%;
-        left: 22%; 
-	}
-	.satext{
-		position: absolute;
-        top: 210%;
-        left: 58%;
-	}
-	.downt{
-		position: absolute;
-		top: 230%;
-		left: 26%;
-	}	
-	.slackimg,.hubimg,.sqimg,.serimg,.cogimg,.grubimg{
-		position: absolute;
-		top: 235%;
-	}
-	.ovalimg{
-		position: absolute;
-		top: 252%;
-	}
-	.icon{
-		position: absolute;
-		top: 258%;
-	}
-	.prod{
-		position: absolute;
-		top: 252%;
-	}
-	.serv{
-		position: absolute;
-		top: 252%;
-	}
-	.comp{
-		position: absolute;
-		top: 252%;
-	}
-	.doc{
-		position: absolute;
-		top: 252%;
-	}	
-	.inpro{
-		font-size: 70%;
-		font-weight: 700;
-	}
-	.inte{
-		font-size: 50%;
-	}
-	.at2{
-		position: absolute;
-		top: 264%;
-	}		
-}
-@media only screen and (min-width: 1000px){
-	.our1{
-		display: none;
-	}
-	.we1{
-		display: none;
-	}
-	.r1{
-		display: none;
-	}
-}
-@media only screen and (max-width: 900px) {
-	#r{
-		position: absolute;
-		right: 4%;
-	}
-	.bigt1 {
-		font-size: 40px;
-		position: absolute;
-		left: 22%;
-	}
-
-	.bigt2 {
-		font-size: 40px;
-	}
-
-	.smallt2 {
-		font-size: 12px;
-		position: absolute;
-		left: 36%;
-	}
-
-	.smallt1 {
-		font-size: 14px;
-		position: absolute;
-		left: 22%;
-	}
-
-	#c {
-		position: absolute;
-		right: 270px;
-	}
-	.upstart{
-		font-size: 12px;
-		padding: 8px 10px;
-		margin: 0px 20px;
-	}
-	.upview{
-		font-size: 12px;
-		padding: 8px 10px;
-	
-	}
-	.upbutton{
-		position: absolute;
-		top: 55%;
-		left: 34%;
-
-	}
-	.sb{
-		position: absolute;
-		height: 750%;
-	}
-	.hr3{
-		border:1px solid black;
-		background-color: black;
-		width: 6%;
-		position: absolute;
-		top: 91%;
-		left: 14%; 
-		opacity: 0.2;
-	}
-	.hr2{
-		border:1px solid black;
-		background-color: black;
-		margin: 880px 110px;
-		opacity: 0.2;
-	}
-	.zl{
-		border:1px solid black;
-		background-color: black;
-		width: 84%;
-		position: absolute;
-		top: 248%;
-		left: 11%;
-		opacity: 0.2;
-	}
-	.hr1{
-		border:1px solid black;
-		background-color: black;
-		width: 5%;
-		position: absolute;
-		top: 4%;
-		left: 14%;
-		opacity: 0.2;
-	}
-
-	.fe{
-		position: absolute;
-		top: 3%;
-	}
-	.our{
-		display: none;
-
-	}
-	.for{
-		display: none;
-	}
-	.our1{
-		font-size: 30px;
-		position: absolute;
-		top: 8%;
-		left: 18%;
-	}
-	.fete{
-		font-size: 20px;
-		font-weight: 700;
-	}	
-	.r1{
-		padding: 12px 5px;
-		position: absolute;
-		top: 14%;
-		left: 24%; 
-	}
-	.r2,.r3,.r4{
-		display: none;
-	}
-	#upimg{
-		width: 14%;
-		height: 10%;
-	}
-	.circle{		
-		position: absolute;
-        top: 24%; 
-		left: 70%;
-	}
-	.ctext{
-		position: absolute;
-        top: 24%; 
-	}
-	.sh{
-		position: absolute;
-        top: 42%;
-        left: 28%; 
-	}
-	.stext{
-		position: absolute;
-        top: 40%; 
-	}
-	.graph{
-		position: absolute;
-        top: 60%; 
-		left: 70%;
-	}
-	.gtext{
-		position: absolute;
-        top: 56%; 
-	}
-	.ohand{
-		position: absolute;
-        top: 76%;
-        left: 28%; 
-	}
-	.otext{
-		position: absolute;
-        top: 72%; 
-	}
-	.more{
-		position: absolute;
-		top: 92%;
-	}
-	.morew{
-		position: absolute;
-		top: 96%;
-	}
-	.we1{
-		font-size: 30px;
-	}
-	.we,.to,.st{
-		display: none;
-	}
-	.easy{
-		position: absolute;
-        top: 114%; 
-		left: 64%;
-	}
-	.etext{
-		font-size: 
-		position: absolute;
-        top: 113%;
-        left: 20%;
-	}
-	.se{
-		position: absolute;
-        top: 134%;
-        left: 20%; 
-	}
-	.setext{
-		position: absolute;
-        top: 132%;
-        left: 58%; 
-	}
-	.power{
-		position: absolute;
-        top: 154%; 
-		left: 62%;
-	}
-	.potext{
-		position: absolute;
-        top: 154%;
-        left: 20%; 
-	}
-	.cloud{
-		position: absolute;
-        top: 172%;
-        left: 22%; 
-	}
-	.cltext{
-		position: absolute;
-        top: 170%;
-        left: 58%; 
-	}
-	.pro{
-		position: absolute;
-        top: 192%; 
-		left: 62%;
-	}
-	.ptext{
-		position: absolute;
-        top: 192%;
-        left: 22%; 
-	}
-	.sat{
-		position: absolute;
-        top: 210%;
-        left: 22%; 
-	}
-	.satext{
-		position: absolute;
-        top: 210%;
-        left: 58%;
-	}
-	.downt{
-		position: absolute;
-		top: 230%;
-		left: 26%;
-	}	
-	.slackimg,.hubimg,.sqimg,.serimg,.cogimg,.grubimg{
-		position: absolute;
-		top: 235%;
-	}
-	.ovalimg{
-		position: absolute;
-		top: 252%;
-	}
-	.icon{
-		position: absolute;
-		top: 258%;
-	}
-	.prod{
-		position: absolute;
-		top: 252%;
-	}
-	.serv{
-		position: absolute;
-		top: 252%;
-	}
-	.comp{
-		position: absolute;
-		top: 252%;
-	}
-	.doc{
-		position: absolute;
-		top: 252%;
-	}	
-	.inpro{
-		font-size: 70%;
-		font-weight: 700;
-	}
-	.inte{
-		font-size: 50%;
-	}		
-}
-@media only screen and (max-width: 850px){
-	#c{
-		display: none;
-	}
-}
-@media only screen and (max-width: 800px){
-	#r1{
-		position: absolute;
-		right: 100%;
-	}
-	.startbox{
-		font-size: 10px;
-	}
-	.bigt1{
-		font-size: 34px;
-		position: absolute;
-		top: 14%;
-		left: 24%;
-	}
-	.bigt2{
-		font-size: 34px;
-		position: absolute;
-		top: 24%;
-		left: 34%;
-	}
-	.smallt1{
-		font-size: 12px;
-		position: absolute;
-		top: 36%;
-		left: 24%;
-	}
-	.smallt2{
-		font-size: 12px;
-		position: absolute;
-		top: 42%;
-		left: 34%;
-	}
-	.upstart{
-		font-size: 10px;
-	}
-	.upview{
-		font-size: 10px;
-	}
-	.upbutton{
-		position: absolute;
-		top: 48%;
-		left: 33%;
-	}
-	.sb{
-		position: absolute;
-		height: 650%;
-	}
-	.hr3{
-		position: absolute;
-		top: 91%;
-	}
-	.hr2{
-		border:1px solid black;
-		background-color: black;
-		margin: 880px 90px;
-		opacity: 0.2;
-	}
-	.fe{
-		
-		top: 1px;
-	}
-	.our1{
-		font-size: 35px;
-		position: absolute;
-		top: 4%;
-		left: 14%;
-	}
-	.fete{
-		font-size: 14px;
-		font-weight: 700;
-	}
-	.r1{
-		position: absolute;
-		top: 10%
-	}
-    .circle{
-		position: absolute;
-        top: 20%; 
-		left: 64%;
-	}
-	.ctext{
-		position: absolute;
-        top: 20%;
-        left: 16% 
-	}
-	.sh{
-		position: absolute;
-        top: 38%;
-        left: 20%; 
-	}
-	.stext{
-		position: absolute;
-        top: 36%; 
-	}
-	.graph{
-		position: absolute;
-        top: 56%; 
-		left: 64%;
-	}
-	.gtext{
-		position: absolute;
-        top: 54%;
-        left: 16%; 
-	}
-	.ohand{
-		position: absolute;
-        top: 72%;
-        left: 20%; 
-	}
-	.otext{
-		position: absolute;
-        top: 70%; 
-	}
-	.more{
-		position: absolute;
-		top: 92%;
-	}
-	.morew{
-		position: absolute;
-		top: 96%;
-	}
-	.we1{
-		font-size: 20px;
-	}
-	.we,.to,.st{
-		display: none;
-	}
-	.easy{
-		position: absolute;
-        top: 110%; 
-		left: 16%;
-	}
-	.etext{
-		position: absolute;
-        top: 122%;
-        left: 16%;
-	}
-	.se{
-		position: absolute;
-        top: 110%;
-        left: 58%; 
-	}
-	.setext{
-		position: absolute;
-        top: 122%;
-        left: 58%; 
-	}
-	.power{
-		position: absolute;
-        top: 137%; 
-		left: 16%;
-	}
-	.potext{
-		position: absolute;
-        top: 150%;
-        left: 16%; 
-	}
-	.cloud{
-		position: absolute;
-        top: 137%;
-        left: 58%; 
-	}
-	.cltext{
-		position: absolute;
-        top: 150%;
-        left: 58%; 
-	}
-	.pro{
-		position: absolute;
-        top: 166%; 
-		left: 16%;
-	}
-	.ptext{
-		position: absolute;
-        top: 180%;
-        left: 16%; 
-	}
-	.sat{
-		position: absolute;
-        top: 166%;
-        left: 58%; 
-	}
-	.satext{
-		position: absolute;
-        top: 180%;
-        left: 58%;
-	}
-	.downt{
-		position: absolute;
-		top: 200%;
-		left: 20%;
-	}	
-	.slackimg,.hubimg,.sqimg,.serimg,.cogimg,.grubimg{
-		position: absolute;
-		top: 206%;
-	}
-	.ovalimg{
-		position: absolute;
-		top: 220%;
-	}
-	.icon{
-		position: absolute;
-		top: 226%;
-		left: 13%;
-	}
-	.prod{
-		position: absolute;
-		top: 220%;
-	}
-	.serv{
-		position: absolute;
-		top: 220%;
-	}
-	.comp{
-		position: absolute;
-		top: 220%;
-	}
-	.doc{
-		position: absolute;
-		top: 220%;
-	}
-	.at2{
-		position: absolute;
-		top: 236%;
-	}	
-}
-
-@media only screen and (max-width: 700px){
-	.hr1{
-		position: absolute;
-		left:20%;
-		opacity: 0.2; 
-	}
-	.our1{
-		position: absolute;
-		left: 12%;
-	}
-	.r1{
-		position: absolute;
-		left: 16%;
-	}
-	.hr3{
-		position: absolute;
-		top: 91%;
-	}
-	.fe{
-		position: absolute;
-		left: 26%;
-	}
-	.ctext{
-		position: absolute;
-		left: 14%;
-	}
-	.circle{
-		position: absolute;
-		left: 64%;
-	}
-	.sh{
-		position: absolute;
-		left: 18%;
-	}
-	.gtext{
-		position: absolute;
-		left: 14%;
-	}
-	.circle{
-		position: absolute;
-		left: 64%;
-	}
-	.fete{
-		font-size: 14px;
-		font-weight: 700;
-	}
-	.ovalimg{
-		height: 4%;
-		position: absolute;
-		top: 222%;
-	}
-	.icon{
-		position: absolute;
-		top: 228%;
-		left: 12%;
-	}
-	.inpro{
-		font-size: 70%;
-		font-weight: 700;
-	}
-	.inte{
-		font-size: 50%;
-	}
-	.serv{
-		position: absolute;
-		top: 220%;
-	}
-	.comp{
-		position: absolute;
-		top: 220%;
-	}
-	.doc{
-		position: absolute;
-		top: 220%;
-	}	
-}
-@media only screen and (max-width: 600px){
-	.startbox{
-		font-size: 10px;
-	}
-	.bigt1{
-		font-size: 30px;
-		position: absolute;
-		top: 12%;
-		left: 20%;
-	}
-	.bigt2{
-		font-size: 30px;
-		position: absolute;
-		top: 20%;
-		left: 28%;
-	}
-	.smallt1{
-		font-size: 10px;
-		position: absolute;
-		top: 32%;
-		left: 20%;
-	}
-	.smallt2{
-	    font-size: 8px;
-	    position: absolute;
-	    top: 36%;	
-	}
-	.upstart{
-		font-size: 7px;
-		padding: 8px 8px;
-	}
-	.upview{
-		font-size: 7px;
-		padding: 8px 8px;
-		margin: 0px 10px;
-	}
-	.upbutton{
-		position: absolute;
-		top: 40%;
-		left: 34%;
-	}
-	.sb{
-		position: absolute;
-		height: 550%;
-	}
-	.hr1{
-		position: absolute;
-		width: 8%;
-		left: 8%;
-		opacity: 0.2;
-	}
-	.fe{
-		position: absolute;
-		left: 18%;
-	}
-	.our1{
-		font-size: 200%;
-		position:absolute;
-		left: 8%;
-	}
-	#upimg{
-		height: 10%
-	}
-    .r1{
-		position: absolute;
-		top: 8%
-		left:1%;
-	}
-	.fete{
-		font-size: 14px;
-		font-weight: 700;
-	}
-    .circle{
-		position: absolute;
-        top: 20%; 
-		left: 66%;
-	}
-	.ctext{
-		position: absolute;
-        top: 20%;
-        left: 12%; 
-	}
-	.sh{
-		position: absolute;
-        top: 38%;
-        left: 14%; 
-	}
-	.stext{
-		position: absolute;
-        top: 36%;
-        left: 56%; 
-	}
-	.graph{
-		position: absolute;
-        top: 56%; 
-		left: 68%;
-	}
-	.gtext{
-		position: absolute;
-        top: 54%;
-        left: 12%; 
-	}
-	.ohand{
-		position: absolute;
-        top: 72%;
-        left: 16%; 
-	}
-	.otext{
-		position: absolute;
-        top: 70%;
-        left: 56%; 
-	}
-	.more{
-		position: absolute;
-		top: 92%;
-	}
-	.morew{
-		position: absolute;
-		top: 96%;
-	}
-	.we1{
-		font-size: 20px;
-	}
-	.we,.to,.st{
-		display: none;
-	}
-	.easy{
-		position: absolute;
-        top: 110%; 
-		left: 16%;
-	}
-	.etext{
-		position: absolute;
-        top: 122%;
-        left: 16%;
-	}
-	.se{
-		position: absolute;
-        top: 110%;
-        left: 58%; 
-	}
-	.setext{
-		position: absolute;
-        top: 122%;
-        left: 58%; 
-	}
-	.power{
-		position: absolute;
-        top: 137%; 
-		left: 16%;
-	}
-	.potext{
-		position: absolute;
-        top: 150%;
-        left: 16%; 
-	}
-	.cloud{
-		position: absolute;
-        top: 137%;
-        left: 58%; 
-	}
-	.cltext{
-		position: absolute;
-        top: 150%;
-        left: 58%; 
-	}
-	.pro{
-		position: absolute;
-        top: 166%; 
-		left: 16%;
-	}
-	.ptext{
-		position: absolute;
-        top: 180%;
-        left: 16%; 
-	}
-	.sat{
-		position: absolute;
-        top: 166%;
-        left: 58%; 
-	}
-	.satext{
-		position: absolute;
-        top: 180%;
-        left: 58%;
-	}
-	.downt{
-		position: absolute;
-		top: 200%;
-		left: 20%;
-	}	
-	.slackimg,.hubimg,.sqimg,.serimg,.cogimg,.grubimg{
-		position: absolute;
-		top: 206%;
-	}
-}
-@media only screen and (max-width: 500px){
-	.startbox{
-		font-size: 8px;
-	}
-	.bigt1{
-		font-size: 20px;
-		position: absolute;
-		top: 18%;
-		left: 26%;
-	}
-	.bigt2{
-		font-size: 20px;
-		position: absolute;
-		top: 24%;
-		left: 32%;
-	}
-	.smallt1{
-		font-size: 10px;
-		position: absolute;
-		top: 36%;
-		left: 20%;
-	}
-	.smallt2{
-	    font-size: 8px;
-	    position: absolute;
-	    top: 42%;
-	    left: 38%;	
-	}
-	.upstart{
-		font-size: 7px;
-		padding: 10px 10px;
-		margin: 0px 13px;
-	}
-	.upview{
-		font-size: 7px;
-		padding: 8px 10px;
-	}
-	.upbutton{
-		position: absolute;
-		top: 50%;
-	}
-	.sb{
-		position: absolute;
-		height: 650%;
-	}
-	.hr2{
-		border:1px solid skyblue;
-		margin: 880px 30px;
-	}
-	.zl{
-		border:1px solid skyblue;
-		width: 84%;
-		position: absolute;
-		top: 238%;
-		left: 11%;
-	}
-	.hr3{
-		border:1px solid skyblue;
-		width: 6%;
-		position: absolute;
-		top: 91%;
-		left: 14%; 
-	}	
-	.our1{
-		font-size: 160%;
-	}
-	.circle{
-		position: absolute;
-        top: 20%; 
-		left: 70%;
-	}
-	.sh{
-		position: absolute;
-        top: 38%;
-        left: 20%; 
-	}
-	.ohand{
-		position: absolute;
-        top: 72%;
-        left: 20%; 
-	}
-	.easy{
-		position: absolute;
-        top: 114%; 
-		left: 70%;
-	}
-	.etext{
-		font-size: 
-		position: absolute;
-        top: 113%;
-        left: 20%;
-	}
-	.se{
-		position: absolute;
-        top: 132%;
-        left: 28%; 
-	}
-	.setext{
-		position: absolute;
-        top: 130%;
-        left: 58%; 
-	}
-	.power{
-		position: absolute;
-        top: 150%; 
-		left: 72%;
-	}
-	.potext{
-		position: absolute;
-        top: 148%;
-        left: 20%; 
-	}
-	.cloud{
-		position: absolute;
-        top: 168%;
-        left: 22%; 
-	}
-	.cltext{
-		position: absolute;
-        top: 166%;
-        left: 58%; 
-	}
-	.pro{
-		position: absolute;
-        top: 186%; 
-		left: 68%;
-	}
-	.ptext{
-		position: absolute;
-        top: 184%;
-        left: 20%; 
-	}
-	.sat{
-		position: absolute;
-        top: 202%;
-        left: 22%; 
-	}
-	.satext{
-		position: absolute;
-        top: 200%;
-        left: 58%;
-	}
-	.downt{
-		font-size: 12px;
-		position: absolute;
-		top: 220%;
-		left: 18%;
-	}
-	.slackimg,.hubimg,.sqimg,.serimg,.cogimg,.grubimg{
-		position: absolute;
-		top: 225%;
-	}
-    .ovalimg{
-		height: 4%;
-		position: absolute;
-		top: 240%;
-	}
-	.icon{
-		position: absolute;
-		top: 246%;
-		left: 12%;
-	}
-	.inpro{
-		font-size: 70%;
-		font-weight: 700;
-	}
-	.inte{
-		font-size: 50%;
-	}
-	.prod{
-		position: absolute;
-		top: 238%;
-	}
-	.serv{
-		position: absolute;
-		top: 238%;
-	}
-	.comp{
-		position: absolute;
-		top: 238%;
-	}
-	.doc{
-		position: absolute;
-		top: 238%;
-	}
-	.at2{
-		font-size:50%;
-		position: absolute;
-		top: 254%;
-
-	}	
-}
-@media only screen and (max-width: 400px){
-	.sb{
-		width: 102%; 
-	}
-	.bigt1{
-		font-size: 20px;
-		position: absolute;
-		top: 16%;
-		left: 22%;
-	}
-	.bigt2{
-		font-size: 20px;
-		position: absolute;
-		top: 24%;
-		left: 30%;
-	}
-	.smallt1{
-		font-size: 9px;
-		position: absolute;
-		top: 36%;
-		left: 10%;
-	}
-	.smallt2{
-	    font-size: 8px;
-	    position: absolute;
-	    top: 42%;
-	    left: 34%;	
-	}
-	.upstart{
-		font-size: 7px;
-		padding: 10px 10px;
-		margin: 0px 1px;
-	}
-	.upview{
-		font-size: 7px;
-		padding: 8px 10px;
-	}
-	.upbutton{
-		position: absolute;
-		top: 50%;
-	}
-	.our1{
-		font-size: 160%;
-	}
-	#upimg{
-		width: 30%;
-		height: 10%;
-	}
-	.fe{
-		position: absolute;
-		left: 20%;
-	}
-
-	.circle{		
-		position: absolute;
-        top: 24%; 
-		left: 34%;
-	}
-	.ctext{
-		position: absolute;
-        top: 34%;
-        left: 24%; 
-	}
-	.sh{
-		position: absolute;
-        top: 48%;
-        left: 34%; 
-	}
-	.stext{
-		position: absolute;
-        top: 58%;
-        left: 24%; 
-	}
-	.graph{
-		position: absolute;
-        top: 74%; 
-		left: 34%;
-	}
-	.gtext{
-		position: absolute;
-        top: 86%;
-        left: 24%; 
-	}
-	.ohand{
-		position: absolute;
-        top: 100%;
-        left: 34%; 
-	}
-	.otext{
-		position: absolute;
-        top: 110%;
-        left: 24%; 
-	}
-	.more{
-		position: absolute;
-		top: 130%;
-	}
-    .morew{
-		position: absolute;
-		top: 132%;
-	}
-	.we1{
-		font-size: 20px;
-	}
-	.we,.to,.st{
-		display: none;
-	}	
-	.easy{
-		position: absolute;
-        top: 148%; 
-		left: 34%;
-	}
-	.etext{ 
-		position: absolute;
-        top: 158%;
-        left: 24%;
-	}
-	.se{
-		position: absolute;
-        top: 174%;
-        left: 34%; 
-	}
-	.setext{
-		position: absolute;
-        top: 184%;
-        left: 24%; 
-	}
-	.power{
-		position: absolute;
-        top: 200%; 
-		left: 34%;
-	}
-	.potext{
-		position: absolute;
-        top: 210%;
-        left: 24%; 
-	}
-	.cloud{
-		position: absolute;
-        top: 226%;
-        left: 34%; 
-	}
-	.cltext{
-		position: absolute;
-        top: 238%;
-        left: 24%; 
-	}
-	.pro{
-		position: absolute;
-        top: 254%; 
-		left: 34%;
-	}
-	.ptext{
-		position: absolute;
-        top: 266%;
-        left: 24%; 
-	}
-	.sat{
-		position: absolute;
-        top: 282%;
-        left: 34%; 
-	}
-	.satext{
-		position: absolute;
-        top: 292%;
-        left: 24%;
-	}
-	.downt{
-		font-size: 8px;
-		position: absolute;
-		top: 310%;
-		left: 18%;
-	}
-	.slackimg,.hubimg,.sqimg,.serimg,.cogimg,.grubimg{
-		position: absolute;
-		top: 312%;
-	}
-    .ovalimg{
-		height: 2%;
-		position: absolute;
-		top: 324%;
-	}
-	.icon{
-		position: absolute;
-		top: 328%;
-		left: 12%;
-	}
-	.inpro{
-		font-size: 70%;
-		font-weight: 700;
-	}
-	.inte{
-		font-size: 50%;
-	}
-	.prod{
-		position: absolute;
-		top: 324%;
-	}
-	.serv{
-		position: absolute;
-		top: 324%;
-	}
-	.comp{
-		position: absolute;
-		top: 324%;
-	}
-	.doc{
-		position: absolute;
-		top: 324%;
-	}
-	.hr3{
-		border:1px solid skyblue;
-		width: 6%;
-		position: absolute;
-		top: 129%;
-		left: 14%; 
-	}
-	.hr2{
-		border:1px solid skyblue;
-		margin: 1280px 60px;
-	}
-	.zl{
-		border:1px solid skyblue;
-		width: 84%;
-		position: absolute;
-		top: 322%;
-		left: 11%;
-	}
-	.at2{
-		font-size: 50%;
-		position: absolute;
-		top: 336%;
-	}	
-}*/
