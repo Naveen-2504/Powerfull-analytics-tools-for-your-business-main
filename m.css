@@ -6,7 +6,7 @@ body{
 }
 .main23{
 	background-color: #D1E8FF;
-	height: 700px;
+	height: 750px;
 }
 a{
 	text-decoration: none;
@@ -15,12 +15,10 @@ a{
 
 .sb{
 	display: flex;
-	width: 1782px;
+	width: 100%;
 }
 .head{
 	display: flex;
-	margin: 0px auto;
-	width: 1411px;
 }
 .head img{
 	height: 8vh;
@@ -39,12 +37,17 @@ li a{
 	flex:1;
 	font-size: 36px;
 	font-family: 'Lexend Giga', sans-serif;
+	display: flex;
+	justify-content: center;
 }
 #c{
-	flex: 3;
+	flex: 1;
+	display: flex;
 }
 #r{
 	flex: 1;
+	display: flex;
+	justify-content: center;
 }
 .startbox{
   background-color: white; 
@@ -67,14 +70,7 @@ li a{
 }
 .smallt1{
 	font-size: 18px;
-	display: flex;
-	justify-content: space-around;
 	font-weight: 412;
-}
-.smallt2{
-	font-size: 16px;
-	display: flex;
-	justify-content: space-around;
 }
 .upbutton{
   display: flex;
@@ -106,54 +102,48 @@ li a{
 	position: relative;
 	background-color: white;
 	border-radius: 79px 79px;
+	top: 52px;
 }
-.hr1{
-	border:1px solid black;
-	background-color: black;
-	width: 5%;
-	opacity: 0.2;
-	margin: 8px;
-}
+
 .whmain{
 	padding: 125px 0px;
 }
 .topfe{
 	display: flex;
 	flex-wrap: wrap;
-	width: 52%;
-	margin: 0px auto;
+	width: 58%;
+	margin: -11px auto;
 }
 .M{
-	margin: 12px auto;
-	width:1127px;
+	margin: 0px auto;
+	width: 58%
+
 }
 .main1{
 	display: flex;
 }
 .our{
-	margin: 0px auto;
+	margin: -24px auto;
 	display: flex;
-	flex: 1;
+	flex: 1;	
 	justify-content: center;
 	font-size:46px;
 }
 .r2{
 	font-size: 18px;
-	width: 100%;
 	font-weight: 500;
 }
 .we{
-	width: 759px;margin: 45px;
 	display: flex;flex: 1;
 	justify-content: center;
 }
 .up1 img{
-	height: 12vh;
-	margin: 26px;
+	height: 16vh;
+	margin: -9px;
 }
 .up2 img{
-	height: 12vh;
-	margin: 26px;
+	height: 16vh;
+	margin: -9px;
 }
 .fmain a{
 	color:#5b45e0;
@@ -161,24 +151,18 @@ li a{
 .up1{
 	display: flex;
 	margin: 2px auto;	
-	width: 1525px;
 }
 .up2{
 	display: flex;
 	margin: 44px auto;
-	width: 1500px;
 }
-.itup1{
+.itup1,.itup3{
 	display: flex;
+	flex: 1.7;
 }
-.itup2{
+.itup2,.itup4{
 	display: flex;
-}
-.itup3{
-	display: flex;
-}
-.itup4{
-	display: flex;
+	flex: 1.8;
 }
 .to{
 	font-size:30px; 
@@ -187,44 +171,49 @@ li a{
 .st{
 	font-size:30px; 
 }
-.hr2{
+.hr2,.hr1{
 	border:1px solid black;
 	background-color: black;
 	width: 5%;
 	opacity: 0.2;
-	margin: 24px;
+	margin: 8px;
 }
-.more{
-	display: flex;
-	margin: 12px auto;
-	width: 1382px;
-}
+
 .hr3{
 	border:1px solid black;
 	background-color: black; 
 	width: 74%;
 	opacity: 0.1;
-	margin: 12px auto
+	margin: 0px auto
 }
 .zl{
 	border:1px solid black;
 	background-color: black; 
 	width: 100%;
 	opacity: 0.1;
+	margin: 0px auto;
+}
+.more{
+	display: flex;
+	flex-wrap: wrap;
+	width: 71%;
+	margin: 55px auto;
+}
+.Ma{
+	margin: 0px auto;
+	width: 70%;
 }
 .mow{
 	display: flex;
 	flex-direction: column;
 	margin: 0px auto;
-	width: 1370px;
 }
 .main2 img{
 	height: 6vh;
 }
 .morew{
 	font-size: 57px;
-	width: 1373px;
-	margin: -49px auto;
+	margin: -77px auto;
 }
 .main2{
 	align-items: center;
@@ -318,8 +307,18 @@ li a{
 	margin: 125px auto;
 	opacity: 0.4;
 }
+.inpro{
+	font-size: 15px;
+	font-weight: 505;
+}
+.icon{
+	margin: 12px auto
+}
+.icon i{
+	margin:0 5px;
+}
 .fa {
-  width: 21px;
+  width: 14px;
   text-align: center;
   text-decoration: none;
   margin: 5px auto;
